@@ -1,0 +1,13 @@
+/log/*
+/tmp/*
+/node_modules/
+/storage/*
+!/log/.keep
+!/tmp/.keep
+/.bundle
+/db/*.sqlite3
+/db/*.sqlite3-*
+/public/assets
+.byebug_history
+.DS_Store
+.env
