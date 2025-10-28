@@ -1,6 +1,12 @@
 /* Global */
 body { font-family: 'Roboto', sans-serif; }
 
+.navbar .nav-link.active {
+  color: #0d6efd !important; /* Bootstrap blue */
+  font-weight: 600;
+  border-bottom: 2px solid #0d6efd;
+}
+
 /* Hero Section */
 .hero-section {
   /* image + dark overlay so text stays readable */
