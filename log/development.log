@@ -1,12 +1,88 @@
-Started GET "/?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:71b0:bb94:ab1:c430 at 2025-10-28 00:17:48 +0000
-Cannot render console from 10.20.11.52! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:39b4:4b6:198a:36a0 at 2025-10-28 05:11:52 +0000
+Cannot render console from 10.20.10.49! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
 Processing by PagesController#welcome as HTML
   Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
   Rendering layout layouts/application.html.erb
   Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.4ms | Allocations: 657)
-  Rendered layout layouts/application.html.erb (Duration: 217.3ms | Allocations: 75809)
-Completed 200 OK in 230ms (Views: 221.7ms | ActiveRecord: 0.0ms | Allocations: 82206)
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 2.2ms | Allocations: 591)
+  Rendered layout layouts/application.html.erb (Duration: 420.2ms | Allocations: 76409)
+Completed 200 OK in 441ms (Views: 427.4ms | ActiveRecord: 0.0ms | Allocations: 82806)
+
+
+Started GET "/portfolio" for 2600:8801:c815:ee00:39b4:4b6:198a:36a0 at 2025-10-28 05:11:54 +0000
+Cannot render console from 10.20.12.172! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 1.1ms | Allocations: 315)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1621)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 1989)
+
+
+Started GET "/portfolio?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:39b4:4b6:198a:36a0 at 2025-10-28 05:12:28 +0000
+Cannot render console from 10.20.11.52! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#portfolio as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 0.5ms | Allocations: 308)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2023)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3017)
+
+
+Started GET "/portfolio?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:39b4:4b6:198a:36a0 at 2025-10-28 05:12:28 +0000
+Cannot render console from 10.20.10.49! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#portfolio as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1286)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1594)
+
+
+Started GET "/portfolio?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:39b4:4b6:198a:36a0 at 2025-10-28 05:15:46 +0000
+Cannot render console from 10.20.11.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#portfolio as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 0.6ms | Allocations: 308)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2025)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3019)
+
+
+Started GET "/portfolio?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:39b4:4b6:198a:36a0 at 2025-10-28 05:16:41 +0000
+Cannot render console from 10.20.11.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#portfolio as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 0.5ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2043)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3033)
+
+
+Started GET "/portfolio?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:39b4:4b6:198a:36a0 at 2025-10-28 05:18:39 +0000
+Cannot render console from 10.20.12.172! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#portfolio as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 0.5ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2025)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 3012)
+
+
+Started GET "/portfolio?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:39b4:4b6:198a:36a0 at 2025-10-28 05:19:28 +0000
+Cannot render console from 10.20.10.151! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#portfolio as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 0.5ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2031)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 3018)
 
 

@@ -1,3 +1,6 @@
+/* Global */
+body { font-family: 'Roboto', sans-serif; }
+
 /* Hero Section */
 .hero-section {
   /* image + dark overlay so text stays readable */
@@ -26,6 +29,13 @@
   transition: background-color 0.3s ease, transform 0.15s ease;
 }
 .hero-section .btn-primary:hover { background-color: #084298; transform: translateY(-1px); }
+
+/* Portfolio top section */
+.portfolio-hero .card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 /* Footer */
 .footer img {
