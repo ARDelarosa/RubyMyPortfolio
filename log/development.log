@@ -1,0 +1,12 @@
+Started GET "/?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:71b0:bb94:ab1:c430 at 2025-10-28 00:17:48 +0000
+Cannot render console from 10.20.11.52! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#welcome as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.4ms | Allocations: 657)
+  Rendered layout layouts/application.html.erb (Duration: 217.3ms | Allocations: 75809)
+Completed 200 OK in 230ms (Views: 221.7ms | ActiveRecord: 0.0ms | Allocations: 82206)
+
+
