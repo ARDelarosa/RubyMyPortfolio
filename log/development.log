@@ -1,98 +1,266 @@
-Started GET "/?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:e1d7:169e:c16b:91d2 at 2025-10-28 20:06:47 +0000
-Cannot render console from 10.20.10.49! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
-Processing by PagesController#welcome as HTML
-  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.8ms | Allocations: 591)
-  Rendered layout layouts/application.html.erb (Duration: 229.2ms | Allocations: 76137)
-Completed 200 OK in 244ms (Views: 234.8ms | ActiveRecord: 0.0ms | Allocations: 82549)
-
-
-Started GET "/about" for 2600:8801:c815:ee00:e1d7:169e:c16b:91d2 at 2025-10-28 20:06:52 +0000
-Cannot render console from 10.20.12.172! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by AboutController#index as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering about/index.html.erb within layouts/application
-  Rendered about/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 251)
-  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1712)
-Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2558)
-
-
-Started GET "/about?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:e1d7:169e:c16b:91d2 at 2025-10-28 20:07:38 +0000
-Cannot render console from 10.20.10.49! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by AboutController#index as HTML
-  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
-  Rendering layout layouts/application.html.erb
-  Rendering about/index.html.erb within layouts/application
-  Rendered about/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 248)
-  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2073)
-Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 3068)
-
-
-Started GET "/about?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:e1d7:169e:c16b:91d2 at 2025-10-28 20:07:38 +0000
-Cannot render console from 10.20.12.172! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by AboutController#index as HTML
-  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
-  Rendering layout layouts/application.html.erb
-  Rendering about/index.html.erb within layouts/application
-  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1357)
-Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1665)
-
-
-Started GET "/about?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:e1d7:169e:c16b:91d2 at 2025-10-28 20:08:42 +0000
-Cannot render console from 10.20.12.172! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by AboutController#index as HTML
-  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
-  Rendering layout layouts/application.html.erb
-  Rendering about/index.html.erb within layouts/application
-  Rendered about/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 248)
-  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2071)
-Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3066)
-
-
-Started GET "/about?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:e1d7:169e:c16b:91d2 at 2025-10-28 20:10:10 +0000
-Cannot render console from 10.20.11.52! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by AboutController#index as HTML
-  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
-  Rendering layout layouts/application.html.erb
-  Rendering about/index.html.erb within layouts/application
-  Rendered about/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 184)
-  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2007)
-Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2998)
-
-
-Started GET "/about?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:e1d7:169e:c16b:91d2 at 2025-10-28 20:10:46 +0000
+Started GET "/?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:03:45 +0000
 Cannot render console from 10.20.11.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by AboutController#index as HTML
-  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
-  Rendering layout layouts/application.html.erb
-  Rendering about/index.html.erb within layouts/application
-  Rendered about/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
-  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1373)
-Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1681)
-
-
-Started GET "/about?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:e1d7:169e:c16b:91d2 at 2025-10-28 20:12:15 +0000
-Cannot render console from 10.20.12.172! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by AboutController#index as HTML
-  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
-  Rendering layout layouts/application.html.erb
-  Rendering about/index.html.erb within layouts/application
-  Rendered about/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 189)
-  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2029)
-Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3021)
-
-
-Started GET "/" for 2600:8801:c815:ee00:e1d7:169e:c16b:91d2 at 2025-10-28 20:12:38 +0000
-Cannot render console from 10.20.10.151! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
 Processing by PagesController#welcome as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
   Rendering layout layouts/application.html.erb
   Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | Allocations: 179)
-  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1593)
-Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2410)
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.9ms | Allocations: 591)
+  Rendered layout layouts/application.html.erb (Duration: 442.8ms | Allocations: 74441)
+Completed 200 OK in 463ms (Views: 449.0ms | ActiveRecord: 0.0ms | Allocations: 80886)
+
+
+Started GET "/about" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:03:50 +0000
+Cannot render console from 10.20.12.172! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1747)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2613)
+
+
+Started GET "/contact" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:03:54 +0000
+Cannot render console from 10.20.11.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContactController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 921)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2198)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3062)
+
+
+Started POST "/contact" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:04:10 +0000
+Cannot render console from 10.20.10.151! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContactController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"Dru Torres", "email"=>"delarosa1254@gmail.com", "message"=>"I am almost done."}
+  Rendering layout layouts/mailer.html.erb
+  Rendering contact_mailer/contact_email.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_email.html.erb within layouts/mailer (Duration: 1.7ms | Allocations: 419)
+  Rendered layout layouts/mailer.html.erb (Duration: 2.3ms | Allocations: 655)
+ContactMailer#contact_email: processed outbound mail in 5.9ms
+Delivered mail 6901ca7a16787_2c378c61559@699efbd94235.mail (7.9ms)
+Date: Wed, 29 Oct 2025 08:04:10 +0000
+From: delarosa1254@gmail.com
+To: emails_received
+Message-ID: <6901ca7a16787_2c378c61559@699efbd94235.mail>
+Subject: New contact from Dru Torres
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h2>New contact message</h2>
+<p><strong>Name:</strong> Dru Torres</p>
+<p><strong>Email:</strong> delarosa1254@gmail.com</p>
+<p><strong>Message:</strong></p>
+<p><p>I am almost done.</p></p>
+
+  </body>
+</html>
+
+Redirected to https://0b4cea6930b74ff7b3bd9352bad1c699.cc-propeller.cloud/contact
+Completed 302 Found in 58ms (ActiveRecord: 0.0ms | Allocations: 37548)
+
+
+Started GET "/contact" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:04:10 +0000
+Cannot render console from 10.20.12.172! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContactController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 446)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1658)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1971)
+
+
+Started GET "/contact?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:08:15 +0000
+Cannot render console from 10.20.10.49! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ContactController#index as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
+  Rendering layout layouts/application.html.erb
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1423)
+  Rendered layout layouts/application.html.erb (Duration: 60.2ms | Allocations: 23169)
+Completed 200 OK in 69ms (Views: 63.2ms | ActiveRecord: 0.0ms | Allocations: 28457)
+
+
+Started POST "/contact" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:08:42 +0000
+Cannot render console from 10.20.10.49! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContactController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"Chris", "email"=>"paradise@hotmail.com", "message"=>"I want some ice cream. "}
+  Rendering layout layouts/mailer.html.erb
+  Rendering contact_mailer/contact_email.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_email.html.erb within layouts/mailer (Duration: 0.5ms | Allocations: 201)
+  Rendered layout layouts/mailer.html.erb (Duration: 1.0ms | Allocations: 437)
+ContactMailer#contact_email: processed outbound mail in 4.0ms
+Delivered mail 6901cb8a89036_9f376478710@699efbd94235.mail (4.3ms)
+Date: Wed, 29 Oct 2025 08:08:42 +0000
+From: paradise@hotmail.com
+To: emails_received
+Message-ID: <6901cb8a89036_9f376478710@699efbd94235.mail>
+Subject: New contact from Chris
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    ==========================================
+NEW CONTACT MESSAGE
+==========================================
+
+Name: Chris
+Email: paradise@hotmail.com
+
+Message:
+I want some ice cream. 
+
+==========================================
+
+
+
+  </body>
+</html>
+
+Redirected to https://0b4cea6930b74ff7b3bd9352bad1c699.cc-propeller.cloud/contact
+Completed 302 Found in 32ms (ActiveRecord: 0.0ms | Allocations: 33760)
+
+
+Started GET "/contact" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:08:42 +0000
+Cannot render console from 10.20.11.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContactController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 444)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1656)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1970)
+
+
+Started GET "/contact?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:17:35 +0000
+Cannot render console from 10.20.10.49! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ContactController#index as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
+  Rendering layout layouts/application.html.erb
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1427)
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 23122)
+Completed 200 OK in 59ms (Views: 53.2ms | ActiveRecord: 0.0ms | Allocations: 28409)
+
+
+Started POST "/contact" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:18:11 +0000
+Cannot render console from 10.20.11.52! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContactController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "name"=>"Matthew", "email"=>"FordTruck@gmail.com", "message"=>"I bought a new truck today."}
+  Rendering layout layouts/mailer.html.erb
+  Rendering contact_mailer/contact_email.html.erb within layouts/mailer
+  Rendered contact_mailer/contact_email.html.erb within layouts/mailer (Duration: 1.3ms | Allocations: 443)
+  Rendered layout layouts/mailer.html.erb (Duration: 1.9ms | Allocations: 679)
+  Rendering layout layouts/mailer.text.erb
+  Rendering contact_mailer/contact_email.text.erb within layouts/mailer
+  Rendered contact_mailer/contact_email.text.erb within layouts/mailer (Duration: 0.4ms | Allocations: 184)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.9ms | Allocations: 380)
+ContactMailer#contact_email: processed outbound mail in 7.8ms
+Delivered mail 6901cdc36e46e_f7376470421@699efbd94235.mail (6.4ms)
+Date: Wed, 29 Oct 2025 08:18:11 +0000
+From: FordTruck@gmail.com
+To: emails_received
+Message-ID: <6901cdc36e46e_f7376470421@699efbd94235.mail>
+Subject: New contact from Matthew
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6901cdc36d7b2_f73764703bd";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_6901cdc36d7b2_f73764703bd
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+==========================================
+NEW CONTACT MESSAGE
+==========================================
+
+Name: Matthew
+Email: FordTruck@gmail.com
+
+Message:
+I bought a new truck today.
+
+==========================================
+
+
+
+
+----==_mimepart_6901cdc36d7b2_f73764703bd
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <div style="border-top: 3px solid #0d6efd; margin-top: 20px; padding-top: 20px;">
+  <h2 style="color: #0d6efd; font-family: Arial, sans-serif;">
+    New Contact Message
+  </h2>
+
+  <p><strong>Name:</strong> Matthew</p>
+  <p><strong>Email:</strong> FordTruck@gmail.com</p>
+
+  <p><strong>Message:</strong></p>
+  <div style="padding: 10px; background-color: #f8f9fa; border-radius: 6px;">
+    <p>I bought a new truck today.</p>
+  </div>
+
+  <hr style="border: none; border-top: 2px dashed #0d6efd; margin: 30px 0;">
+</div>
+
+  </body>
+</html>
+
+----==_mimepart_6901cdc36d7b2_f73764703bd--
+
+Redirected to https://0b4cea6930b74ff7b3bd9352bad1c699.cc-propeller.cloud/contact
+Completed 302 Found in 38ms (ActiveRecord: 0.0ms | Allocations: 46152)
+
+
+Started GET "/contact" for 2600:8801:c815:ee00:c881:f9d7:6e15:e386 at 2025-10-29 08:18:11 +0000
+Cannot render console from 10.20.10.49! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ContactController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 436)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1644)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1958)
 
 
