@@ -598,3 +598,108 @@ Processing by PagesController#portfolio as HTML
 Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 3768)
 
 
+  [1m[35m (13.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2025-11-01 00:19:52.278048"], ["updated_at", "2025-11-01 00:19:52.278048"]]
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2025-10-31 17:20:40 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 3.4ms | Allocations: 656)
+  Rendered layout layouts/application.html.erb (Duration: 281.2ms | Allocations: 74009)
+Completed 200 OK in 316ms (Views: 288.0ms | ActiveRecord: 0.0ms | Allocations: 83343)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-31 17:26:23 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/portfolio" for 127.0.0.1 at 2025-10-31 17:43:51 -0700
+Processing by PagesController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/_project_card.html.erb (Duration: 1.3ms | Allocations: 343)
+  Rendered pages/_project_card.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered pages/_project_card.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 4.0ms | Allocations: 963)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2313)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 2599)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-31 17:43:51 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/about" for 127.0.0.1 at 2025-10-31 17:43:54 -0700
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1643)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2531)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-31 17:43:54 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/about" for 127.0.0.1 at 2025-10-31 17:45:02 -0700
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1367)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1594)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-31 17:45:02 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/about" for 127.0.0.1 at 2025-10-31 17:56:25 -0700
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 1352)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 1578)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-31 17:56:25 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-10-31 17:56:36 -0700
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.4ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1365)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 1594)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-31 17:56:36 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/portfolio" for 127.0.0.1 at 2025-10-31 18:06:01 -0700
+Processing by PagesController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/_project_card.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered pages/_project_card.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered pages/_project_card.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 0.8ms | Allocations: 230)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1583)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 1810)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-31 18:06:01 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
