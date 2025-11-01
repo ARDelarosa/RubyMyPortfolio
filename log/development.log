@@ -703,3 +703,37 @@ Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at
   
 ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
   
+Started GET "/portfolio" for 127.0.0.1 at 2025-10-31 18:30:59 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/_project_card.html.erb (Duration: 0.4ms | Allocations: 360)
+  Rendered pages/_project_card.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered pages/_project_card.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1296)
+  Rendered layout layouts/application.html.erb (Duration: 125.2ms | Allocations: 24145)
+Completed 200 OK in 140ms (Views: 129.6ms | ActiveRecord: 0.0ms | Allocations: 30832)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-31 18:30:59 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/andrew_delarosa_resume.pdf" for 127.0.0.1 at 2025-10-31 18:31:02 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/andrew_delarosa_resume.pdf"):
+  
+Started GET "/" for 127.0.0.1 at 2025-10-31 18:32:33 -0700
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 9.9ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 1582)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 1868)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-31 18:32:33 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
