@@ -1,5 +1,5 @@
 class ContactMailer < ApplicationMailer
-  default to: "emails_received" # <-- where you want to receive messages
+  default to: "delarosa1254@gmail.com" # <-- where you want to receive messages
 
   def contact_email(name:, email:, message:)
     @name    = name

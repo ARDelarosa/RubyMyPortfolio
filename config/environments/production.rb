@@ -84,4 +84,20 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # --- Email setup for contact form (Gmail SMTP via ENV vars) ---
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              "smtp.gmail.com",
+    port:                 587,
+    domain:               "gmail.com",
+    user_name:            ENV["GMAIL_USERNAME"],
+    password:             ENV["GMAIL_PASSWORD"],
+    authentication:       "plain",
+    enable_starttls_auto: true
+  }
+
+  # This makes sure URLs in emails are correct in production
+  config.action_mailer.default_url_options = { host: "andrewdelarosa.net", protocol: "https" }
+
 end
