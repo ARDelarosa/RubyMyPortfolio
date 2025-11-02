@@ -737,3 +737,120 @@ Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at
   
 ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
   
+Started GET "/" for 127.0.0.1 at 2025-11-01 19:51:18 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 2.1ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 155.2ms | Allocations: 24624)
+Completed 500 Internal Server Error in 174ms (ActiveRecord: 0.0ms | Allocations: 31266)
+
+
+  
+ActionView::Template::Error (undefined local variable or method 'new_contact_path' for an instance of #<Class:0x0000710a79fab7d0>):
+    43:             </li>
+    44: 
+    45:             <li class="nav-item">
+    46:               <%= link_to "Contact", new_contact_path, class: "nav-link" %>
+    47:             </li>
+    48: 
+    49:             <li class="nav-item ms-lg-3">
+  
+app/views/layouts/application.html.erb:46:in '_app_views_layouts_application_html_erb___3942626059958979046_8984'
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-11-01 19:51:18 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-11-01 19:55:26 -0700
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.2ms | Allocations: 196)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3080)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+  
+ActionView::Template::Error (undefined local variable or method 'new_contact_path' for an instance of #<Class:0x0000710a0be34898>):
+    40:     <%= link_to "About", about_index_path, class: "nav-link" %>
+    41:   </li>
+    42:   <li class="nav-item">
+    43:     <%= link_to "Contact", new_contact_path, class: "nav-link" %>
+    44:   </li>
+    45:   <li class="nav-item ms-lg-3">
+    46:     <%= link_to "/andrew_delarosa_resume.pdf",
+  
+app/views/layouts/application.html.erb:43:in '_app_views_layouts_application_html_erb___3942626059958979046_9528'
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-11-01 19:55:26 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-11-01 19:57:59 -0700
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | Allocations: 196)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2356)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3453)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-11-01 19:57:59 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-11-01 20:00:02 -0700
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.5ms | Allocations: 196)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2302)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3347)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-11-01 20:00:02 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-11-01 20:00:05 -0700
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1427)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1657)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-11-01 20:00:05 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/portfolio" for 127.0.0.1 at 2025-11-01 20:00:07 -0700
+Processing by PagesController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/portfolio.html.erb within layouts/application
+  Rendered pages/_project_card.html.erb (Duration: 2.1ms | Allocations: 343)
+  Rendered pages/_project_card.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered pages/_project_card.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered pages/portfolio.html.erb within layouts/application (Duration: 13.4ms | Allocations: 963)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 2380)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 2662)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-11-01 20:00:07 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-11-01 20:00:23 -0700
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 1426)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 1652)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-11-01 20:00:23 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
